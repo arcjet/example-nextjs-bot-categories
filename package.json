@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@arcjet/inspect": "1.11.0",
+    "@arcjet/next": "1.11.0",
+    "@fontsource-variable/figtree": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "typescript": "5.9.3"
+  },
+  "description": "An example Next.js application demonstrating advanced Arcjet bot detection with category allow/deny lists and per-bot filtering.",
+  "engines": {
+    "node": ">=22"
+  },
+  "name": "@arcjet-examples/nextjs-bot-categories",
+  "private": true,
+  "repository": "github:arcjet/example-nextjs-bot-categories",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "overrides": {
+    "postcss": ">=8.5.10"
+  }
+}
